@@ -13,6 +13,16 @@ def DrawRectangle(Anyturtle, l, w):
         Anyturtle.right(90)
         Anyturtle.forward(w)
 DrawRectangle(po, 5, 5)
+time.sleep(10)
   # DrawPoly(Anyturtle, n):  Will draw a regular polygon with 'n' sides of
      # * You should select the size of the polygon so that it always fits in the screen
 #**15 points MAX***
+def DrawPoly(Anyturtle, n):
+    Anyturtle.up
+    Anyturtle.goto(0,75)
+    Anyturtle.down
+    for x in range (n):
+        Anyturtle.forward(1)
+        Anyturtle.right((360/n))
+DrawPoly(po, 50)
+time.sleep(10)
