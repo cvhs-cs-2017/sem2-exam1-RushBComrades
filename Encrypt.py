@@ -13,5 +13,5 @@ def Encrypt(o):
         word += x
     return word
 print(Encrypt("Computer Science Makes the World go round but it doesn't make the world round itself!"))
-
+variable = "Cmptr Scnc Mks th Wrld g rnd bt t dsn't mk th wrld rnd tslf!"
 """Write an encryption code that you make up and run it for the variable NoVowels"""

@@ -20,5 +20,5 @@ for i in range(40, 1, -5):
 
 """Write a program that will count print all the multiples of (n) where n is
 taken from user input.  Include necessary print statements."""
-#print("Enter a number.")
-#def multiples
+print("Enter a number.")
+def multiples
