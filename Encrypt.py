@@ -9,7 +9,7 @@ def Encrypt(o):
     word = ""
     for x in o:
         if x in vow:
-            x = " "
+            x = ""
         word += x
     return word
 print(Encrypt("Computer Science Makes the World go round but it doesn't make the world round itself!"))
