@@ -36,3 +36,5 @@ Cube()
 
 """Import and Call the DrawRectangle(Anyturtle, l, w) function from the
 file MyFile.py"""
+from MyFile import DrawRectangle
+DrawRectangle(qy, 5, 5)
