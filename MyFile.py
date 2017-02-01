@@ -18,9 +18,9 @@ time.sleep(10)
      # * You should select the size of the polygon so that it always fits in the screen
 #**15 points MAX***
 def DrawPoly(Anyturtle, n):
-    Anyturtle.up
+    Anyturtle.up()
     Anyturtle.goto(0,75)
-    Anyturtle.down
+    Anyturtle.down()
     for x in range (n):
         Anyturtle.forward(1)
         Anyturtle.right((360/n))
