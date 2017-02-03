@@ -15,3 +15,9 @@ def Encrypt(o):
 print(Encrypt("Computer Science Makes the World go round but it doesn't make the world round itself!"))
 NoVowels = Encrypt("Computer Science Makes the World go round but it doesn't make the world round itself!")
 """Write an encryption code that you make up and run it for the variable NoVowels"""
+def encrip(s):
+    chars = "abcdefghijklmnopqrstuvwxyz"
+    trans = chars[8:]+chars[:8]
+    rot_char = lambda c: trans[chars.find(c)] if chars.find(c)>-1 else c
+    return ''.join( rot_char(c) for c in s )
+print(encrip(NoVowels))
